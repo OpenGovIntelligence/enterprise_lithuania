@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.control-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 320px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  padding: 12px 24px;
+  margin: 20px;
+  font-size: 13px;
+  line-height: 2;
+  color: #6b6b76;
+  outline: none;
+  text-transform: uppercase;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  margin-left: 20px;
+  width: 160px;
+}
+
+.my-tooltip {
+  position: absolute !important;
+  margin: 8px !important;
+  padding: 4px !important;
+  background: rgba(0, 0, 0, 0.8) !important;
+  color: #fff !important;
+  max-width: 500px !important;
+  font-size: 30px !important;
+  z-index: 20 !important;
+  pointer-events: none !important;
+}
+
+.my-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
